@@ -13,3 +13,12 @@ features:
   details: Feature 3 Description
 footer: Made by Lloyd Atkinson with ❤️
 ---
+
+<!-- 
+```bash
+# Run unit tests (Jest based)
+npm run test:unit
+
+# Run locally
+npm run vuepress:dev
+``` -->
