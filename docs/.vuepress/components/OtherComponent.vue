@@ -1,3 +1,3 @@
 <template>
-  <p class="demo">This is another component</p>
+  <p class="bg-red-500">This is another component</p>
 </template>

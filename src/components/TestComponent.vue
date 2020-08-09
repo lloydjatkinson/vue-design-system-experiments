@@ -1,5 +1,5 @@
 <template>
-    <div class=" mt-8 animate-bounce text-xl">Hello</div>
+    <div class="mt-8 animate-bounce text-xl">Hello</div>
 </template>
 
 <script lang="ts">

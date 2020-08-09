@@ -62,12 +62,19 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    '@kawarimidoll/tailwind'
+    // '@kawarimidoll/tailwind'
     // [
     //   '@vuepress/register-components',
     //   {
     //     componentsDir: '../../src/components/'
     //   }
     // ]
-  ]
+  ],
+  
+  postcss: {
+    plugins: [
+      require("tailwindcss")("./tailwind.config.js"),
+      require("autoprefixer")
+    ]
+  }
 }
