@@ -1,6 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+# heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: ./coding.svg
 tagline: Concepts for design systems and component libraries
 actionText: Quick Start →
 actionLink: /guide/
